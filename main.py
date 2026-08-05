@@ -179,4 +179,12 @@ class QuizGame:
 
 game = QuizGame()
 game.load()
-game.run()
+
+try:
+    game.run()
+except KeyboardInterrupt:
+    print("\n\n프로그램을 안전하게 종료합니다.")
+    game.save()
+except EOFError:
+    print("\n\n입력 스트림이 종료되어 프로그램을 안전하게 종료합니다.")
+    game.save()
