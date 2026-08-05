@@ -1,3 +1,9 @@
+"""
+아재개그 퀴즈 게임 - Codyssey Mission 2
+Quiz: 개별 퀴즈 데이터를 표현하는 클래스
+QuizGame: 퀴즈 목록 관리, 메뉴 진행, 파일 저장/불러오기를 담당하는 클래스
+"""
+
 import json
 
 
